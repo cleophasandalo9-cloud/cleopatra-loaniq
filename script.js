@@ -4684,7 +4684,7 @@ async function sendWelcomeEmail (email) {
     await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_WELCOME_ID, {
       to_name:  email.split('@')[0], // use part before @ as name
       to_email: email,
-      app_url:  'https://cleophasandalo9-cloud.github.io/cleopatra-loan-calculator/'
+      app_url:  'https://cleophasandalo.com/'
     });
 
     console.log('Welcome email sent to:', email);
